@@ -1,0 +1,238 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(203, 197, 197);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 10px;
+}
+.udemy_logo{
+  height: 34px;
+  width: 91px;
+  
+}
+.button{
+  border: none;
+  outline: none;
+  background: none;
+
+}
+#search{
+  height: 20px;
+  width: 20px;
+  padding-left: 10px;
+}
+.search_bar{
+  border: 1px solid black;
+  border-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  align-content: center;
+ background-color:rgb(251, 248, 248);
+  height: 40px;
+  width: 500px;
+  margin-left: 10px;
+  align-items: center;
+}
+#input{
+  width: 400px;
+  border: none;
+  padding-left: 15px;
+  background-color:rgb(251, 248, 248);
+  outline: none;
+}
+#wishlist{
+  height: 24px;
+  width: 24px;
+}
+#cart{
+  height: 24px;
+  width: 24px;
+}
+#bell{
+  height: 24px;
+  width: 24px;
+}
+#user{
+  height: 24px;
+  width: 24px;
+}
+.data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  height: 50px;
+  
+}
+.girl_image {
+  position: relative;
+  
+}
+.text{
+  /* border: 1px solid black; */
+  margin-right: 50px;
+  background-color: white;
+}
+.text1 {
+  position: absolute;
+  top: 248px;
+  left: 93px;
+  background-color: white;
+}
+
+.text2 {
+  position: absolute;
+  top: 190px;
+  left: 93px;
+  background-color: white;
+  width: 371px;
+}
+.data .tooltiptext {
+  visibility: visible;
+  width: 100%;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  display: flex;
+  position: absolute;
+  top:50px;
+  z-index: 1;
+  justify-content: space-evenly;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+
+}
+
+.data .tooltiptext::after {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #555 transparent;
+}
+
+.tooltiptext{
+  visibility: visible !important;
+}
+.data:hover .tooltiptext {
+ visibility: visible;
+  opacity: 1;
+}
+.learn{
+  font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.25;
+    letter-spacing: -.05rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#v_image1{
+  height:150px;
+  width:120px;
+}
+.learning_video{
+  display: flex;
+  width: 400px;
+  border: 1px solid rgb(203, 197, 197);
+}
+.text3{
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+  font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.time{
+  font-size: 0.9rem;
+  font-family: udemy sans,sf pro 
+}
+.text5{
+  display: flex;
+  margin-top: -26px;
+  margin-bottom: -18px;
+  color: #6a6f73;
+}
+.text6{
+  color: #6a6f73;
+}
+#heading{
+  margin-bottom: 19px;
+}
+.video{
+  display: flex;
+  justify-content: space-around;
+}
+#next_course_image{
+  height: 270px;
+  width: 498px;
+  padding: 20px;
+}
+.next_course{
+  border:1px solid rgb(203, 197, 197);
+  background-color:rgb(255, 255, 255); 
+  display: flex;
+}
+.checked {
+  color: orange;
+  
+}
+#image_text{
+  font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+}
+#para{
+  margin-top: -14px;
+  font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+#author{
+  font-size: 0.87rem;
+  color:rgb(129, 126, 126);
+}
+.rupee{
+  padding-top: 74px;
+  font-size: 20px;
+}
+#suggested_image{
+  height: 140px;
+  width: 260px;
+  display: flex;
+  padding-right: 15px;
+}
+.suggested_courses{
+  border: 1px solid rgb(203, 197, 197);
+  /* margin-right: 900px; */
+  border: none;
+  
+}
+.suggested_videos{
+  display: flex;
+  
+}
+#image_text{
+  font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    margin-top: 3px;
+}
+#image_text1{
+  font-size: 0.87rem;
+  color:rgb(129, 126, 126) ;
+  margin-top: -13px;
+}
+#image_text2{
+  color:#b46702;
+  margin-top: -13px;
+}
+#image_text3{
+  margin-top: -13px
+}

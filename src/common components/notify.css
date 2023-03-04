@@ -1,0 +1,28 @@
+#notify_img{
+    border-radius: 50%;
+    width: 63px;
+    height: 67px;
+}
+.notify{
+    display: flex;
+    padding: 50px 0px 0px 50px;
+    border: 1px solid rgb(203, 197, 197);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+   
+}
+#notify_text{
+    display: flex;
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1rem;
+    margin-left: 13px;
+    width: 60%;
+}
+#notify_days{
+    margin: 13px;
+    color: #6a6f73;
+}

@@ -1,0 +1,100 @@
+.footer{
+    background-color: black;
+    color:#fff;
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.footer_text{
+    padding: 20px 50px 5px 50px;
+    /* border-bottom: 1px solid rgb(203, 197, 197); */
+    
+}
+.footer_heading{
+    /* font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol; */
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1.3rem;
+}
+#footer_heading1{
+    font-weight: 500;
+    line-height: 3.2;
+    letter-spacing: -.02rem;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#text_link{
+    border: 1px solid#fff;
+    padding: 15px;
+    margin-left: 996px;
+    position: relative;
+    bottom: 58px;
+}
+.link1{
+ color: blueviolet;
+}
+.udemy_footer{
+    display: flex;
+}
+#footer_pic{
+    padding-left: 35px;
+}
+#footer_pic1{
+    padding-left: 10px;
+}
+#footer_pic2{
+    padding-left: 10px;
+}
+#footer_pic3{
+    padding-left: 10px;
+}
+#footer_pic4{
+    padding-left: 10px;
+}
+.footer_heading2{
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1.3rem;
+    padding-left: 50px;
+}
+ul{
+    list-style-type: none;
+    padding-right: 110px;
+}
+li{
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+}
+.about_udemy{
+    padding-left: 10px;
+    display: flex;
+    flex-basis: 25.6rem;
+    margin-right: 1.6rem;
+}
+.language{
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    margin-left: 1066px;
+    padding: 4px;
+    position: relative;
+    top: -137px;
+    margin-right: 38px;
+}
+.udemy_logo1{
+    height: 34px;
+    width: 92px;
+    padding-left: 50px;
+}
+.copyright{
+    font-size: 0.8rem;
+    padding-right: 20px;
+}
+.footer_logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 20px 0px;
+}
