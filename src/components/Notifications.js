@@ -1,6 +1,6 @@
 import React from "react";
 import "./notification.css";
-import {Notify} from '../common components/notify'; 
+import {Notify} from '../common_components/notify'; 
  import notification_img from "../assets/notification_img.jpg";
  import notify_img from "../assets/notify_img.jpg";
 export function Notifications(){

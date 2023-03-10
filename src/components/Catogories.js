@@ -5,8 +5,6 @@ import backgrnd_image from "../assets/backgrnd_image.jpg";
 
 export  default function Categories(){
     const [indexd,setIndexd]=useState(0);
-    // const [dropdown,setdropdown]=useState(false);
-    // const [list,setlist]=useState(null);
     const onHovermenu=(index)=>{
       setIndexd(index)
     }

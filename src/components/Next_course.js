@@ -28,6 +28,8 @@ export function Next_course(){
                    
                 </div>
             </div>
+            <h2 id="heading1">Because you viewed
+        <a href="https://www.udemy.com/course/modern-javascript /" >"The Modern Javascript Course"</a></h2>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Dropdown_content} from '../common components/Dropdown_content';
+import {Dropdown_content} from '../common_components/Dropdown_content';
 const Teach_on_udemy=()=>{
     return(
         <>

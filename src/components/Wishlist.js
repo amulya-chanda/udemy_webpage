@@ -1,7 +1,7 @@
 import React from "react";
 import "./Wishlist.css";
 import search2 from '../assets/search2.jpg';
-import {Suggested} from '../common components/Suggested_course';
+import {Suggested} from '../common_components/Suggested_course';
 import video9 from '../assets/video9.jpg';
 import video10 from '../assets/video10.jpg';
 import video11 from '../assets/video11.jpg';
